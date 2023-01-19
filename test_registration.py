@@ -1,12 +1,12 @@
 ##### using paraametrize
-
+from pytest
 from Selenium_Wrapper import SeleniumWrapper
 
-import pytest 
+
 
 headers="gender,fname,lname,email,password,confirmpass"
 
-data=[("male","Steve","harvel","steveharvel@company.com","Password123","password123"),("female","Marry","jim","Marryjim@company.com","password456","Password456")]
+data=[("male","Steve","harvel","steveharvel@company.com","password123","password123"),("female","Marry","jim","Marryjim@company.com","password456","password456")]
 
 
 @pytest.mark.parametrize(headers,data)
