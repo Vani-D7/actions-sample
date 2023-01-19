@@ -2,7 +2,7 @@ name: Python test
 
 on:
   push:
-    branches: ["master"]
+    branches: [ "master" ]
 
 
 permissions:
